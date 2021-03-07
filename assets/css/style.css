@@ -140,12 +140,58 @@ header>div>h1{
 /*=================================
   main styling starts here
 =================================*/
+.hero-banner{
+  background: url('../../img/intro-bg.jpg');
+  display: block;
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  position: relative;
+}
+
+/* .hero-banner>h2{
+  position: absolute;
+  margin:0 auto;
+} */
+/* .brand-service{
+  width: 100%;
+  text-align: center;
+  font-size: 4rem;
+  color:white;
+  text-transform: uppercase;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+} */
+/* .brand-service+p{
+  position: absolute;
+  top:50%;
+} */
 
 
+.hero-banner>a{
+  display: block;
+  width: 10rem;
+  padding:10px 20px;
+  color:white;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 5px;
+  text-transform: uppercase;
+  background-color: #69ad31;
+  position: absolute;
 
+}
+.hero-banner>h2{
+  font-size: 4rem;
+  color:white;
+  text-transform: uppercase;
+}
 
-
-
+.hero-banner>p{
+  color: white;
+}
 
 
 /*=================================
@@ -155,12 +201,46 @@ header>div>h1{
 /*=================================
   footer styling starts here
 =================================*/ 
+/* .footer-social
+  /* display: block; */
+ 
+footer>div{
+  display: flex;
+  width: 100%;
+  height: 20vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #363636;
+  flex-direction: column;
+}
 
-
-
-
-
-
+/* footer>div>ul{
+display: flex;
+flex-direction: column;
+}
+footer>div>ul li{
+  display: inline-block;
+} */
+.footer-social li{
+  background-color: #464646;
+  width: 1.2rem;
+  padding: 10px;
+  margin:0 10px;
+  font-size: 1.2rem;
+  border-radius: 50%;
+  text-align: center;
+}
+.footer-social li>a{
+  text-decoration: none;
+  color:#66a333;
+}
+footer>div>p{
+  margin-top: 5vh;
+  color: #535353;
+}
+footer>div>p>span{
+  color: #747474;
+}
 
  /*=================================
   footer styling ends here
