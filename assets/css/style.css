@@ -155,11 +155,11 @@ header>div{
 } */
 
 .outer-hero-banner{
-  background: url('../../img/intro-bg.jpg');
+  background-image:linear-gradient(rgba(0,0,0, 0.6), rgba(0,0,0, 0.1)), url('../../img/intro-bg.jpg');
   display: flex;
   /* max-width: 1360px; */
   /* width: 86%; */
-  height: 600px;
+  height: 80vh;
   /* margin: 0 auto; */
   background-size: cover;
   position: relative;
@@ -197,24 +197,29 @@ header>div{
 .inner-hero-banner>a{
   display: block;
   width: 10rem;
-  padding:10px 20px;
+  padding:15px 25px;
   color:white;
   font-weight: bold;
   text-align: center;
   border-radius: 5px;
   text-transform: uppercase;
   background-color: #69ad31;
-  
+  margin-top: 20px;
 
 }
 .inner-hero-banner>h2{
   font-size: 4rem;
   color:white;
   text-transform: uppercase;
+  font-weight: bolder;
 }
 
 .inner-hero-banner>p{
   color: white;
+  padding-top:10px;
+  font-size: 1.4rem;
+  text-align: center;
+  width: 70%;
 }
 
 .welcome-section{
@@ -256,14 +261,16 @@ header>div{
 }
 .welcome-inner-left>a{
   display: block;
-  width: 10rem;
-  padding:10px 20px;
+  width: 180px;
+  padding:15px 25px;
   color:white;
   font-weight: bold;
   text-align: center;
   border-radius: 5px;
   text-transform: uppercase;
   background-color: #69ad31;
+  margin-top: 20px;
+  
 }
 .welcome-inner-right>ul{
 display: flex;
@@ -326,7 +333,7 @@ background-color: #69ad31;
   text-align: center;
 }
 .our-services>li>p{
-  color: white;
+  color:#e4dcd7;
   text-align:center;
 
 }
@@ -379,7 +386,7 @@ background-color: #69ad31;
   .testimonials-section{
     display: flex;
     height: 50vh;
-    background-color:#78b546 ;
+    background: linear-gradient(rgba(106,166,50, 0.8), rgba(106,166,50, 0.8)), url('../../img/testimonials-bg.jpg');
     justify-content: center;
     align-items: center;    
   }
@@ -393,6 +400,21 @@ align-items: center;
     font-size: 2rem;
     padding-bottom: 5px;
     color: white;
+  }
+  .testimonials-inner>hr{
+    border-top: solid white;
+    width: 50px;
+  }
+  .testimonials-inner>hr:last-child{
+    border:none;
+    border-top: 10px dotted white;
+    width: 50px;
+  }
+
+  .testimonials-inner>p{
+    color: white;
+    line-height: 25px;
+    text-align: center;
   }
     /*=================================
   main styling ends here
