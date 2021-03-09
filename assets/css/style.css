@@ -459,6 +459,7 @@ align-items: center;
     line-height: 25px;
     text-align: center;
     margin-top: 20px;
+    font-size: 1.2rem;
   }
   .contact-us-section{
     background-color: #f6f6f6;
@@ -490,6 +491,7 @@ align-items: center;
     margin-bottom: 40px;
     color: #8b8b8b;
     line-height: 1.6;
+    font-size: 1.2rem;
   }
   .contact-us-bottom>ul{
     display: flex;
@@ -532,6 +534,7 @@ align-items: center;
     flex-direction: column;
   }
   .contact-form{
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -584,6 +587,9 @@ width: 50%;
     margin-right: 5px;
   }
 
+  .contact-details li>p:first-child{
+    color:black;
+  }
   /* optional */
   .testimonials-inner>ul{
     list-style-type: none;
