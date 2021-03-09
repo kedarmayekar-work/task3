@@ -560,6 +560,18 @@ width: 50%;
     background-color: white;
   }
   
+  
+
+  /* optional */
+  .testimonials-inner>ul{
+    list-style-type: none;
+    display: block;
+    margin-top: 20px;
+  }
+  .testimonials-inner>ul li:first-child{
+    background-color: white;
+  }
+
     /*=================================
   main styling ends here
 =================================*/
