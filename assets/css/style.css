@@ -210,6 +210,10 @@ header>div{
   border-bottom: .01px solid white; */
   border-radius: 10px;
 }
+.inner-hero-banner>a:hover{
+  background-color: black;
+  transform: scale(1.2);
+}
 .inner-hero-banner>h2{
   font-size: 4rem;
   color:white;
@@ -223,7 +227,7 @@ header>div{
   margin-bottom: 40px;
   font-size: 1.4rem;
   text-align: center;
-  width: 70%;
+  width: 50%;
   line-height: 1.6;
 }
 
@@ -277,6 +281,10 @@ transform: translateX(-150px);
   background-color: #69ad31;
   margin-top: 20px;
   
+}
+.welcome-inner-left>a:hover{
+  background-color: black;
+  transform: scale(1.2);
 }
 .welcome-inner-right>ul{
 display: flex;
@@ -367,6 +375,7 @@ background-color: #69ad31;
   display: flex;
   justify-content: center;
   flex-direction: column;
+  align-items: center;
 }
   .project-gallery-top>h3{
     font-size: 2rem;
@@ -405,7 +414,14 @@ background-color: #69ad31;
     border-radius: 5px;
     cursor: pointer;
   }
-
+  .gallery-filters li:hover{
+    background-color: #69ad31;
+    color: white;
+    border-radius: 5px;
+  }
+  .gallery-img:hover{
+    transform: scale(1.5);
+  }
   .project-gallery>li{
     width: 30%;
     padding:1%;
@@ -554,13 +570,19 @@ width: 50%;
     width: 15px;
     background-color: #abce86;
     border-radius: 50%;
-    display: inline-block;
+    /* display: inline-block; */
   }
   .white-dot{
     background-color: white;
   }
-  
-  
+  .current-testimonial{
+    display: flex;
+    margin-top: 10px;
+  }
+  .current-testimonial span{
+    margin-left: 5px;
+    margin-right: 5px;
+  }
 
   /* optional */
   .testimonials-inner>ul{
@@ -613,6 +635,10 @@ footer>div>ul li{
 .footer-social li>a{
   text-decoration: none;
   color:#66a333;
+}
+.footer-social li:hover{
+  background-color: black;
+  transform: scale(1.1);
 }
 footer>div>p{
   margin-top: 5vh;
