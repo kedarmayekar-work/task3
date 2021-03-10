@@ -99,15 +99,17 @@ li {
 
 /*for wrapper*/
 .wrapper {
-  max-width: 1360px;
-  width: 86%; 
+  /* max-width: 1360px; */
+  max-width: 1903px;
+  /* width: 86%;  */
+  width: 84.49%;
   margin: 0 auto;
 }
 /*=================================
   Header styling starts here
 =================================*/
 header{
- 
+  height: 128px;
   background-color: #363636;
   color:#eceded;
  
@@ -122,24 +124,26 @@ header>div{
   /* float:left; */
 
 .navbar li{
+  padding:56px 20px;
   display: inline-block;
-  padding:30px;
   text-decoration: none;
 }
-.navbar>li>a{
+.navbar > li > a{
   text-decoration: none;
   text-transform: uppercase;
   color:#eceded;
+  font-size: 21px;
 }
 
 .navbar>li>a:hover
 {
   color: #66a333;
 }
-.brand-name>a{
-  font-size: 2.5rem;
+
+.brand-name > a{
+  margin-top: 51px;
+  font-size: 28px;
   color: white;
-margin-top: 15px;
 }
 /*=================================
   Header styling ends here
@@ -160,7 +164,7 @@ margin-top: 15px;
 } */
 
 .outer-hero-banner{
-  height: 80vh;
+  /* height: 80vh; */
   background-image:linear-gradient(rgba(0,0,0, 0.6), rgba(0,0,0, 0.1)), url('../../img/intro-bg.jpg');
   background-size: cover;
   display: flex;
@@ -172,10 +176,13 @@ margin-top: 15px;
   align-items:center;
 }
 .inner-hero-banner{
+  padding-top: 469px;
+  padding-bottom: 281px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
 }
 
 /* .hero-banner>h2{
@@ -200,63 +207,67 @@ margin-top: 15px;
 
 
 .inner-hero-banner>a{
-  display: block;
   width: 10rem;
-  padding:20px 30px;
+  /* margin-top: 20px; */
+  padding:27px 27px;
+ 
+  display: block;
   color:white;
   font-weight: bold;
-  font-size: 1.2rem;
+  font-size: 19px;
    text-align: center;
   border-radius: 5px;
   text-transform: uppercase;
   background-color: #69ad31;
-  margin-top: 20px;
+  
   /* border-top: .01px solid white;
   border-bottom: .01px solid white; */
-  border-radius: 10px;
 }
 .inner-hero-banner>a:hover{
   background-color: black;
   transform: scale(1.2);
 }
 .inner-hero-banner>h2{
-  font-size: 4rem;
+    font-size: 67px;
   color:white;
   text-transform: uppercase;
   font-weight: bolder;
 }
 
 .inner-hero-banner>p{
-  color: white;
-  margin-top:20px;
-  margin-bottom: 40px;
-  font-size: 1.4rem;
-  text-align: center;
   width: 50%;
+  padding-top:56px;
+  padding-bottom: 77px;
+ 
+  color: white;
+  font-size: 18px;
+  text-align: center;
   line-height: 1.6;
 }
 
 .welcome-section{
+
   position: relative;
   /* width: 100%; */
-  height: 60vh;
   background-color: #f6f6f6;
 }
 .welcome-section>div{
+  padding: 170px 148px;
   display: flex;
-
+  
 }
 .welcome-inner-left
 {
-  margin: 100px 50px 200px 150px;
+ 
 }
 .welcome-inner-right{
-  margin:100px 150px 200px 50px;
+  /* margin:100px 150px 200px 50px; */
 }
 .welcome-inner-left>h3{
   /* margin:10px 50px 50px 100px; */
-  font-size: 2rem;
+  font-size: 29px;
   padding-bottom:5px;
+ 
   
 
 }
@@ -265,8 +276,8 @@ margin-top: 15px;
   font-weight: bold;
 }
 .welcome-inner-left>hr{
-  border-top:solid #69ad31;
   width: 50px;
+  border-top:solid #69ad31;
 transform: translateX(-150px);
 }
 .welcome-inner-left>p{
@@ -275,16 +286,16 @@ transform: translateX(-150px);
   color: #8b8b8b;
 }
 .welcome-inner-left>a{
-  display: block;
   width: 180px;
   padding:15px 25px;
+  margin-top: 20px;
+  display: block;
   color:white;
   font-weight: bold;
   text-align: center;
   border-radius: 5px;
   text-transform: uppercase;
   background-color: #69ad31;
-  margin-top: 20px;
   
 }
 .welcome-inner-left>a:hover{
@@ -299,10 +310,10 @@ display: flex;
   margin-right: 50px;
 }
 .welcome-inner-right figcaption{
-  font-size: 1.2rem;
-  font-weight: bold;
   padding-top: 20px;
   padding-bottom: 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 .welcome-inner-right p{
   line-height: 1.6;
@@ -312,10 +323,10 @@ display: flex;
 background-color: #69ad31;
 }
   .our-services-section>div{
+    padding-top: 100px;
+    padding-bottom: 100px;
   display: flex;
    flex-direction: column;
-   padding-top: 100px;
-   padding-bottom: 100px;
     /* justify-content: space-between; */
   }
 
