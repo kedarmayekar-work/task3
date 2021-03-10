@@ -207,11 +207,11 @@ header>div{
 
 
 .inner-hero-banner>a{
-  width: 10rem;
+  /* width: 10rem; */
   /* margin-top: 20px; */
-  padding:27px 27px;
+  padding:27px 35px;
  
-  display: block;
+  /* display: block; */
   color:white;
   font-weight: bold;
   font-size: 19px;
@@ -254,11 +254,7 @@ header>div{
 .welcome-section>div{
   padding: 170px 148px;
   display: flex;
-  
-}
-.welcome-inner-left
-{
- 
+  position: relative;
 }
 .welcome-inner-right{
   /* margin:100px 150px 200px 50px; */
@@ -267,10 +263,20 @@ header>div{
   /* margin:10px 50px 50px 100px; */
   font-size: 29px;
   padding-bottom:5px;
- 
-  
+}
+.welcome-inner-left>h3::after
+{
+  content:"";
+  position: absolute;
+  /* top:30px; */
+  bottom: 30px;
+  left: 0;
+  right: 0;
+  height: 0.5em;
+  border-top: 1px solid black;
 
 }
+
 .welcome-inner-left>h3>span{
   color: #69ad31;
   font-weight: bold;
@@ -283,14 +289,16 @@ transform: translateX(-150px);
 .welcome-inner-left>p{
   margin-top:20px;
   line-height: 1.6;
+  font-size: 12px;
   color: #8b8b8b;
 }
 .welcome-inner-left>a{
-  width: 180px;
-  padding:15px 25px;
+ 
+  padding:26px 15px;
   margin-top: 20px;
-  display: block;
+  /* display: block; */
   color:white;
+  font-size: 22px;
   font-weight: bold;
   text-align: center;
   border-radius: 5px;
@@ -304,15 +312,16 @@ transform: translateX(-150px);
 }
 .welcome-inner-right>ul{
 display: flex;
+justify-content: space-between;
 /* width: 50%; */
 }
-.welcome-inner-right>ul>li:first-child{
-  margin-right: 50px;
+.welcome-inner-right>ul>li{
+flex-basis: 47.25%;
 }
-.welcome-inner-right figcaption{
+.welcome-inner-right h4{
   padding-top: 20px;
   padding-bottom: 20px;
-  font-size: 1.2rem;
+  font-size: 18px;
   font-weight: bold;
 }
 .welcome-inner-right p{
@@ -433,11 +442,13 @@ background-color: #69ad31;
     cursor: pointer;
   }
   .gallery-filters li:hover{
+    transition: all 0.3s;
     background-color: #69ad31;
     color: white;
     border-radius: 5px;
   }
   .gallery-img:hover{
+    transition: all 0.3s;
     transform: scale(1.5);
   }
   .project-gallery>li{
@@ -612,10 +623,18 @@ width: 50%;
     color:black;
   }
   /* optional */
+  }
   .testimonials-inner>ul{
     list-style-type: none;
     display: block;
     margin-top: 20px;
+  }
+  .dot{
+    height: 15px;
+  width: 15px;
+  background-color: #abce86;
+  border-radius: 50%;
+  display: inline-block;
   }
   .testimonials-inner>ul li:first-child{
     background-color: white;
