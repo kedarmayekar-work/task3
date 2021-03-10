@@ -368,7 +368,7 @@ background-color: #69ad31;
   padding-top: 100px;
 }
 .our-services>li{
-  flex-basis: 20%;
+  flex-basis: 20.62%;
 
 }
 .our-services-img{
@@ -485,7 +485,8 @@ align-items: center;
     width: 50px;
   }
 
-  .testimonials-inner>p{
+  .testimonials-inner>p,
+  .testimonials-added>p{
     color: white;
     line-height: 25px;
     text-align: center;
@@ -602,16 +603,8 @@ width: 50%;
     font-weight: bold;
     text-transform: uppercase;
   }
-  .dot {
-    height: 15px;
-    width: 15px;
-    background-color: #abce86;
-    border-radius: 50%;
-    /* display: inline-block; */
-  }
-  .white-dot{
-    background-color: white;
-  }
+  
+ 
   .current-testimonial{
     display: flex;
     margin-top: 10px;
@@ -625,7 +618,7 @@ width: 50%;
     color:black;
   }
   /* optional */
-  }
+  
   .testimonials-inner>ul{
     list-style-type: none;
     display: block;
@@ -638,10 +631,10 @@ width: 50%;
   border-radius: 50%;
   display: inline-block;
   }
-  .testimonials-inner>ul li:first-child{
+ 
+  .white-dot{
     background-color: white;
   }
-
     /*=================================
   main styling ends here
 =================================*/
