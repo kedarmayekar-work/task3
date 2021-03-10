@@ -50,7 +50,7 @@
       <div class="wrapper">
         <h1 class="brand-name">
           <a href="#fixme" title="Landscaper">
-            <!-- <img src="https://via.placeholder.com/150x50" alt="Landscaper Logo"> -->
+            <img src="https://via.placeholder.com/150x50" alt="Landscaper Logo">
             Landscaper
           </a>
         </h1>
@@ -251,14 +251,8 @@
         &#8220;Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus eum provident est blanditiis praesentium iste numquam cum mollitia possimus commodi quis facere assumenda, ullam, dignissimos, totam dolores pariatur consequatur omnis&#8221;
       </p>
       <p>&dash;John DOE ,Parker Country, TX</p>
-      <div class="current-testimonial">
-      <span class="white-dot dot"></span>
-        <span class="dot"></span>
-        <span class="dot"></span>
-        <span class="dot"></span>
-      </div>
-      <!-- <ul class="testimonials-post">
-        <li>
+      <ul class="testimonials-post">
+        <li class="testimonials-added">
           <p>
             &#8220;Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus eum provident est blanditiis praesentium iste numquam cum mollitia possimus commodi quis facere assumenda, ullam, dignissimos, totam dolores pariatur consequatur omnis&#8221;
           </p>
@@ -288,8 +282,16 @@
         <span class="dot"></span>
         <span class="dot"></span>
         </li>
-      </ul> -->
+      </ul>
 
+      <div class="current-testimonial">
+      <span class="white-dot dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+
+     
         
       
 
@@ -338,14 +340,27 @@
       <div class="contact-form-outer">
         <p class="leave-message">leave us a message</p>
         <div class="contact-form">
-          <div class="contact-form-top">          
+          <form>
+          <div class="contact-form-top">
+            <div>          
           <input type="text" name="name" placeholder="Name">
-          <input type="email" name="email" placeholder="email">
+          <span class="name-error"></span>
+            </div>
+            <div>
+            <input type="email" name="email" placeholder="email">
+            <span class="email-error"></span>
+          </div>
         </div>
         <div class="contact-form-bottom">
-          <textarea name="Message" cols="50" rows="10" placeholder="Message"></textarea><br>
+          <div>
+          <textarea name="Message" cols="50" rows="10" placeholder="Message"></textarea>
+          <span class="message-error"></span>
+        </div>
+        <div>
           <input type="submit" value="SEND MESSAGE">
+        </div>
           </div>
+        </form>
         </div>
       </div>
       </div>
