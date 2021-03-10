@@ -125,6 +125,7 @@ header>div{
 
 .navbar li{
   padding:56px 20px;
+  flex-basis: 18.31%;
   display: inline-block;
   text-decoration: none;
 }
@@ -254,10 +255,11 @@ header>div{
 .welcome-section>div{
   padding: 170px 148px;
   display: flex;
-  position: relative;
+  justify-content: space-between;
 }
-.welcome-inner-right{
-  /* margin:100px 150px 200px 50px; */
+.welcome-inner-right,
+.welcome-inner-left{
+flex-basis: 48%;
 }
 .welcome-inner-left>h3{
   /* margin:10px 50px 50px 100px; */
@@ -373,11 +375,11 @@ background-color: #69ad31;
   border-radius: 50%;
   border:10px solid #78b546 ;
 }
-.our-services-img+figcaption{
+.our-services > li >h4{
   color:white;
   padding-top: 25px;
   padding-bottom: 20px;
-  font-size: 1.6rem;
+  font-size: 21px;
   text-align: center;
 }
 .our-services>li>p{
@@ -702,7 +704,7 @@ footer>div>p>span{
 /*media query starts*/
 /*media query for 995px starts here*/
 @media only screen and (max-width: 995px) {
-
+  
  
 
 }  
