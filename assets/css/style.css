@@ -292,9 +292,10 @@ flex-basis: 48%;
   font-weight: bold;
 }
 .welcome-inner-left>hr{
-  width: 50px;
+display: none;
+  /* width: 50px;
   border-top:solid #69ad31;
-transform: translateX(-150px);
+transform: translateX(-150px); */
 }
 .welcome-inner-left>p{
   margin-top:20px;
@@ -732,11 +733,12 @@ margin-top: 111px;
 
   .welcome-inner-left>h3::after{
 content: "";
-display: inline-block;
+display: block;
 height: 0;
-width: 35px;
-border-top: 2px solid green;
+width: 100px;
+border-top: 4px solid #66a333;
   }
+
   
     /*=================================
   main styling ends here
@@ -805,7 +807,7 @@ footer>div>p>span{
 
 /*media query starts*/
 /*media query for 995px starts here*/
-@media only screen and (min-width:995px) and (max-width:1600px){
+@media only screen and (min-width:1025px) and (max-width:1600px){
 
 .gallery-filters {
   display: flex;
