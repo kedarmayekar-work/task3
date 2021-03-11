@@ -319,6 +319,7 @@ margin-top: 45px;
 .welcome-inner-right>ul{
 display: flex;
 justify-content: space-between;
+flex-wrap: wrap;
 /* width: 50%; */
 }
 .welcome-inner-right>ul>li{
@@ -711,6 +712,15 @@ margin-top: 111px;
   .white-dot{
     background-color: white;
   }
+
+  .welcome-inner-left>h3::after{
+content: "";
+display: inline-block;
+height: 0;
+width: 35px;
+border-top: 2px solid green;
+  }
+  
     /*=================================
   main styling ends here
 =================================*/
@@ -907,7 +917,43 @@ margin-top: 100px;
   display: inline-block;
   padding: 10px 20px;
 } */
+.gallery-filters li{
+  margin-bottom: 20px;
+}
 
+.inner-hero-banner>h2{
+  font-size: 25px;
+
+}
+.inner-hero-banner {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.brand-service{
+  text-align: center;
+}
+.welcome-inner-left>h3 {
+  text-align: center;
+}
+.welcome-inner-right>ul>li {
+  flex-basis: 94.5%;
+}
+.our-services>li {
+  margin-bottom: 20px;
+}
+footer>div>ul{
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.footer-social li{
+  background-color: #464646;
+ 
+  padding: 14px;
+  margin:0 10px;
+  font-size: 30px;
+  border-radius: 50%;
+  text-align: center;
+}
 }
 
 @media only screen and (max-width:320px)  {
