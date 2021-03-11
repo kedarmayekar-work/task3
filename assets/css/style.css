@@ -105,6 +105,9 @@ li {
   width: 84.49%;
   margin: 0 auto;
 }
+.navbar .menu-bar{
+  display: none;
+}
 /*=================================
   Header styling starts here
 =================================*/
@@ -273,19 +276,20 @@ flex-basis: 48%;
   /* margin:10px 50px 50px 100px; */
   font-size: 51px;
   padding-bottom:5px;
+  font-weight: bold;
 }
-.welcome-inner-left>h3::after
-{
+/* .welcome-inner-left>h3::after
+
   content:"";
   /* position: absolute; */
   /* top:30px; */
-  bottom: 30px;
+  /* bottom: 30px;
   left: 0;
   right: 0;
   height: 0.5em;
-  border-top: 1px solid black;
+  border-top: 1px solid black; */
 
-}
+
 
 .welcome-inner-left>h3>span{
   color: #69ad31;
@@ -364,6 +368,7 @@ background-color: #69ad31;
   }
   .our-services-top>h3{
     font-size: 53px;
+    font-weight: bold;
     padding-bottom:5px;
     color: white;
   }
@@ -425,6 +430,7 @@ background-color: #69ad31;
   .project-gallery-top>h3{
    
     font-size: 50px;
+    font-weight: bold;
     padding-bottom:5px;
     text-align: center;
   }
@@ -506,6 +512,7 @@ align-items: center;
   }
   .testimonials-inner>h3{
     font-size: 48px;
+    font-weight: bold;
     padding-bottom: 5px;
     color: white;
   }
@@ -546,6 +553,7 @@ align-items: center;
 .contact-us-top>h3{
     /* margin:10px 50px 50px 100px; */
     font-size: 49px;
+    font-weight: bold;
     padding-bottom:5px;    
     text-align: center;
   }
@@ -807,7 +815,7 @@ footer>div>p>span{
 
 /*media query starts*/
 /*media query for 995px starts here*/
-@media only screen and (min-width:1025px) and (max-width:1600px){
+@media only screen and (min-width:1200px) and (max-width:1600px){
 
 .gallery-filters {
   display: flex;
@@ -817,7 +825,7 @@ footer>div>p>span{
   padding-bottom: 20px;
 }
 }
-@media only screen and (max-width:1200px) {
+@media only screen and (min-width:1025px) and (max-width:1200px) {
 
   .welcome-section>div {
     padding: 100px 50px;
@@ -871,7 +879,7 @@ margin-top: 100px;
 }  
 
 
-@media only screen and (min-width:320px) and (max-width:640px) {
+@media only screen and (min-width:320px) and (max-width:641px) {
   .wrapper {
      max-width: 640px;
      width: 84.49%;
@@ -899,7 +907,7 @@ margin-top: 100px;
   padding-top: 100px;
 }
 .our-services>li {
-  flex-basis: 82.48%;
+  flex-basis: 95%;
 }
 .our-services>li:nth-of-type(3),.our-services>li::nth-of-type(4) {
 margin-top: 100px;
@@ -911,6 +919,9 @@ margin-top: 100px;
   justify-content: space-between;
   padding-top: 93px;
   padding-bottom: 20px;
+}
+.gallery-filters li{
+  flex-basis: 35%;
 }
 
 .project-gallery {
@@ -938,16 +949,20 @@ margin-top: 100px;
 } */
 .gallery-filters li{
   margin-bottom: 20px;
+ 
 }
 
 .inner-hero-banner>h2{
-  font-size: 25px;
+  /* font-size: 25px; */
+  font-size: 72px;
 
 }
+
 .inner-hero-banner {
   padding-top: 100px;
   padding-bottom: 100px;
 }
+
 .brand-service{
   text-align: center;
 }
@@ -973,6 +988,36 @@ footer>div>ul{
   border-radius: 50%;
   text-align: center;
 }
+.navbar li{
+  display: none;
+}
+.navbar .menu-bar{
+display: block;
+cursor: pointer;
+}
+.contact-us-bottom>ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.contact-form-top{
+  flex-direction: column;
+}
+.contact-form-top>div {
+  flex-basis: 95.72%;
+}
+.contact-form-top>div:nth-of-type(2) {
+margin-top: 20px;
+}
+
+.contact-us-bottom>ul li {
+  flex-basis: 90%;
+      padding: 10px 20px;
+  }
+  .welcome-inner-right>ul>li:nth-of-type(2) {
+  padding-top: 100px;
+}
+
 }
 
 @media only screen and (max-width:320px)  {
@@ -981,5 +1026,31 @@ footer>div>ul{
      width: 84.49%;
     margin: 0 auto;
   }
-  
+  .contact-us-bottom>ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+  .contact-us-bottom>ul li {
+flex-basis: 90%;
+    padding: 10px 20px;
+}
+.contact-form-top{
+  flex-direction: column;
+}
+.contact-form-top>div {
+  flex-basis: 95.72%;
+}
+.contact-form-top>div:nth-of-type(2) {
+margin-top: 20px;
+}
+.contact-form-bottom>input{
+  display: inline-block;
+  background-color: #69ad31;
+  padding: 10px 20px;
+  width: 100%;
+    }
+    .welcome-inner-right>ul>li:nth-of-type(2) {
+      padding-top: 100px;
+    } 
 }
