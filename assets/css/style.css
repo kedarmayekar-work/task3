@@ -109,7 +109,7 @@ li {
   Header styling starts here
 =================================*/
 header{
-  height: 128px;
+
   background-color: #363636;
   color:#eceded;
  
@@ -134,7 +134,7 @@ header>div{
   text-decoration: none;
   text-transform: uppercase;
   color:#eceded;
-  font-size: 21px;
+  font-size: 20px;
 }
 
 .navbar>li>a:hover
@@ -146,6 +146,12 @@ header>div{
   margin-top: 51px;
   font-size: 28px;
   color: white;
+  text-indent: -9999px;
+}
+.brand-name>a>img{
+  float: right;
+width: 202px;
+height: 39px;
 }
 /*=================================
   Header styling ends here
@@ -211,12 +217,12 @@ header>div{
 .inner-hero-banner>a{
   /* width: 10rem; */
   /* margin-top: 20px; */
-  padding:27px 35px;
+  padding: 24px 30px;
  
   /* display: block; */
   color:white;
   font-weight: bold;
-  font-size: 19px;
+  font-size: 22px;
    text-align: center;
   border-radius: 5px;
   text-transform: uppercase;
@@ -230,19 +236,20 @@ header>div{
   transform: scale(1.2);
 }
 .inner-hero-banner>h2{
-    font-size: 67px;
+  font-size: 90px;
+  /* 67px as per tool */
   color:white;
   text-transform: uppercase;
   font-weight: bolder;
 }
 
 .inner-hero-banner>p{
-  width: 40%;
-  margin-top:56px;
-  margin-bottom: 77px;
+  width: 50%;
+  margin-top: 19px;
+  margin-bottom: 63px;
  
   color: white;
-  font-size: 18px;
+  font-size: 27px;
   text-align: center;
   line-height: 1.6;
 }
@@ -264,13 +271,13 @@ flex-basis: 48%;
 }
 .welcome-inner-left>h3{
   /* margin:10px 50px 50px 100px; */
-  font-size: 29px;
+  font-size: 51px;
   padding-bottom:5px;
 }
 .welcome-inner-left>h3::after
 {
   content:"";
-  position: absolute;
+  /* position: absolute; */
   /* top:30px; */
   bottom: 30px;
   left: 0;
@@ -292,7 +299,8 @@ transform: translateX(-150px);
 .welcome-inner-left>p{
   margin-top:20px;
   line-height: 1.6;
-  font-size: 12px;
+  font-size: 22px;
+  /* font-size: 27px; */
   color: #8b8b8b;
 }
 .welcome-inner-left>p:nth-of-type(2){
@@ -300,12 +308,12 @@ margin-top: 45px;
 }
 .welcome-inner-left>a{
  
-  padding:26px 15px;
+  padding:23px 31px;
   margin-top: 80px;
   /* display: block; */
   color:white;
-  font-size: 22px;
-  font-weight: bold;
+  font-size: 23px;
+
   text-align: center;
   border-radius: 5px;
   text-transform: uppercase;
@@ -328,11 +336,12 @@ flex-basis: 47.25%;
 .welcome-inner-right h4{
   padding-top: 20px;
   padding-bottom: 20px;
-  font-size: 18px;
+  font-size: 31px;
   font-weight: bold;
 }
 .welcome-inner-right p{
   line-height: 1.6;
+  font-size: 20px;
   color: #8b8b8b;
 }
 .our-services-section{
@@ -353,7 +362,7 @@ background-color: #69ad31;
     flex-direction: column;
   }
   .our-services-top>h3{
-    font-size: 31px;
+    font-size: 53px;
     padding-bottom:5px;
     color: white;
   }
@@ -365,7 +374,7 @@ background-color: #69ad31;
   }
   .our-services-top>p{
     color:#c6e8b8;
-    font-size: 15px;
+    font-size: 27px;
   }
 .our-services{
   display: flex;
@@ -384,14 +393,14 @@ background-color: #69ad31;
   color:white;
   padding-top: 25px;
   padding-bottom: 20px;
-  font-size: 21px;
+  font-size: 33px;
   text-align: center;
 }
 .our-services>li>p{
   color:#c6e8b8;
   text-align:center;
   line-height: 1.6;
-  font-size: 12px;
+  font-size: 21px;
 }
 
     .project-gallery-section{
@@ -413,7 +422,8 @@ background-color: #69ad31;
   
 }
   .project-gallery-top>h3{
-    font-size: 30px;
+   
+    font-size: 50px;
     padding-bottom:5px;
     text-align: center;
   }
@@ -425,7 +435,8 @@ background-color: #69ad31;
   .project-gallery-top>p{
     color:#a9a8a9;
     text-align: center;
-    padding-top: 39px;
+    padding-top: 34px;
+    font-size: 25px;
   }
   .gallery-filters{
     display: flex;
@@ -493,7 +504,7 @@ justify-content: center;
 align-items: center;
   }
   .testimonials-inner>h3{
-    font-size: 30px;
+    font-size: 48px;
     padding-bottom: 5px;
     color: white;
   }
@@ -513,7 +524,7 @@ align-items: center;
     line-height: 25px;
     text-align: center;
     /* margin-top: 20px; */
-    font-size: 13px;
+    font-size: 24px;
   }
   .testimonials-added>p:nth-of-type(2){
     margin-top: 39px;
@@ -533,7 +544,7 @@ align-items: center;
 
 .contact-us-top>h3{
     /* margin:10px 50px 50px 100px; */
-    font-size: 30px;
+    font-size: 49px;
     padding-bottom:5px;    
     text-align: center;
   }
@@ -547,7 +558,7 @@ align-items: center;
     margin-bottom: 135px;
     color: #8b8b8b;
     line-height: 1.6;
-    font-size: 15px;
+    font-size: 23px;
   }
   .contact-us-bottom{
     margin-bottom: 135px;
@@ -571,6 +582,7 @@ align-items: center;
     text-align: center;
    color:#8b8b8b;
    line-height: 1.6;
+   font-size: 20px;
   }
 
   .contact-us-bottom>ul li>p:first-child{
@@ -630,7 +642,7 @@ align-items: center;
   }
 
   input[type="submit"]{
-    padding: 28px 31px;
+    padding: 25px 31px;
     font-size: 20px;
     background-color: #69ad31;
     color: white;
@@ -665,11 +677,15 @@ padding: 10px 20px;
 width: 50%;
   }
   .contact-form-bottom>div:nth-of-type(2){
-    width: 64%;
+    /* width: 64%; */
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
   }
+  
   .leave-message{
     margin-bottom: 58px;
-    font-size: 18px;
+    font-size: 25px;
     font-weight: bold;
     text-transform: uppercase;
 
@@ -687,6 +703,7 @@ width: 50%;
 
   .contact-details li>p:first-child{
     color:black;
+    font-size: 23px;
   }
   /* optional */
   
