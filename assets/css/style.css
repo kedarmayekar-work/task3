@@ -1130,7 +1130,51 @@ margin-top: 100px;
 .project-gallery > li {
   flex-basis: 47.325%;
 }
+.navbar li{
+  display: none;
+  padding: 0;
+}
+.navbar .menu-bar{
+display: block;
+cursor: pointer;
+}
+.contact-us-bottom>ul li {
+  flex-basis: 90%;
+  padding: 10px 20px;
+  margin-right: 0;
+}
 
+.contact-us-top>h3::after{
+  left: 278px;
+  }
+  .gallery-filters li {
+    margin-bottom: 20px;
+}
+.gallery-filters li {
+    flex-basis: 35%;
+}
+
+.inner-hero-banner>h2{
+  /* font-size: 25px; */
+  font-size: 72px;
+
+}
+
+.inner-hero-banner {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.brand-service{
+  text-align: center;
+}
+
+.our-services>li {
+  flex-basis: 47.24%;
+}
+.our-services-bottom {
+  margin-top: 0;
+}
 
 }  
 /* Initially designed with */
@@ -1345,6 +1389,57 @@ textarea{
 input[type="text"], input[type="email"] {
   padding-left: 0;
 }
+.contact-form>form, .contact-form-top, .contact-form-top>div, .contact-us-top>div>input, .contact-us-top>div>span{
+  width:100%;
+}
+.leave-message{
+  text-align: center;
+}
 
+textarea{
+  width: 111%;
+    padding-left: 7%
+}
+input[type="text"], input[type="email"]{
+  width:95%;
+  padding-left:5%;
+  }
+  .working-time::after{
+    left: 69px;
+    }
+.address::after{
+  left: 69px;
+}    
+.project-gallery-top>h3{
+  font-size: 37px;
+}
+.project-gallery-top>h3::after{
+  top: 58px;
+  left: 87px;
+}
+.our-services-top>h3 {
+  font-size: 37px;
+}
+.our-services-top>h3::after {
+  width: 80px;
+  top: 57px;
+  left: 78px;
+}
+.inner-hero-banner>p {
+  width: 100%;
+}
+.welcome-inner-left>h3{
+  font-size: 37px;
+}
+.welcome-inner-left>h3::after {
+  top: 58px;
+
+  left: 36px;
+  width: 72px;
+}
+.gallery-filters{
+  padding-top: 0;
+  padding-bottom: 0;
+}
 
 }
