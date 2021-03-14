@@ -545,7 +545,8 @@ font-size: 21px;
   }
   .gallery-img:hover{
     transition: all 0.3s;
-    transform: scale(1.5);
+    opacity: 0.7;
+    /* transform: scale(1.5); */
   }
   .project-gallery-bottom
   {
@@ -1376,6 +1377,37 @@ padding-top: 0;
   line-height: 1.6;
 }
 
+
+/* hover effects removed */
+.navbar>li>a:hover
+{
+ color:#eceded;
+}
+.inner-hero-banner>a:hover{
+  background-color: #69ad31;
+  transform: scale(1);
+}
+
+.welcome-inner-left>a:hover{
+  background-color: #69ad31;
+  transform: none;
+}
+  .gallery-filters li:hover{
+    transition: none;
+    background-color: #a9a8a9;
+    color: white;
+    border-radius: initial;
+  }
+  .gallery-img:hover{
+    transition: none;
+    opacity: initial;
+    /* transform: scale(1.5); */
+  }
+
+.footer-social li:hover{
+  background-color: #464646;
+  transform: none;
+}
 }
 
 @media only screen and (max-width:320px)  {
