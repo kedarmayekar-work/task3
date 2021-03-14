@@ -1175,6 +1175,46 @@ cursor: pointer;
 .our-services-bottom {
   margin-top: 0;
 }
+.gallery-filters{
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.address::after{
+  left: 39px;
+}
+
+.working-time::after{
+  top: 78px;
+  left: 37px;
+}
+.contact-info::after{
+  left: 41px;
+}
+
+
+/* test */
+textarea{
+  padding-left: 0;
+}
+input[type="text"], input[type="email"] {
+  padding-left: 0;
+}
+.contact-form>form, .contact-form-top, .contact-form-top>div, .contact-us-top>div>input, .contact-us-top>div>span{
+  width:100%;
+}
+.leave-message{
+  text-align: center;
+}
+
+textarea{
+  width: 111%;
+    padding-left: 7%
+}
+input[type="text"], input[type="email"]{
+  width:95%;
+  padding-left:5%;
+  }
+
 
 }  
 /* Initially designed with */
@@ -1335,6 +1375,7 @@ padding-top: 0;
 .welcome-inner-left>h3{
   line-height: 1.6;
 }
+
 }
 
 @media only screen and (max-width:320px)  {
