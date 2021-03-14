@@ -1079,7 +1079,9 @@ footer>div>p>span{
 }
 /* @media only screen and (min-width:1025px) and (max-width:1200px) {
  */
-@media only screen and (min-width:641px) and (max-width:995px) {
+ /* Initially designed with */
+/* @media only screen and (min-width:641px) and (max-width:995px) { */
+  @media only screen and (min-width:768px) and (max-width:995px) {
 
   .welcome-section>div {
     padding: 100px 50px;
@@ -1131,9 +1133,9 @@ margin-top: 100px;
 
 
 }  
-
-/* @media only screen and (min-width:320px) and (max-width:768px) { */
-@media only screen and (min-width:320px) and (max-width:641px) {
+/* Initially designed with */
+/* @media only screen and (min-width:320px) and (max-width:641px) { */
+@media only screen and (min-width:320px) and (max-width:767px) {
   .wrapper {
      max-width: 640px;
      width: 84.49%;
@@ -1283,7 +1285,8 @@ padding-top: 0;
 }
 .welcome-inner-left>h3::after {
   top: 84px;
-    left: 134px;
+    /* left: 134px; */
+    left: 31px;
 }
 .welcome-inner-left>h3{
   line-height: 1.6;
